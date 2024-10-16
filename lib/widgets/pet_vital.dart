@@ -18,7 +18,7 @@ class PetVital extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 16),
       decoration: BoxDecoration(
         color: const Color(0xFFFFF0E5),
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(15),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,

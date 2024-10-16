@@ -69,7 +69,7 @@ class PetPageScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height: 5),
+                  const SizedBox(height: 5),
                   const PetVital(
                     bpm: 110,
                     temperature: 37.0,
@@ -78,7 +78,7 @@ class PetPageScreen extends StatelessWidget {
                     height: 5,
                   ),
                   const SizedBox(height: 5),
-                  // FindDeviceButton(),
+                  FindDeviceButton(),
                   const SizedBox(height: 5),
                   CameraActivationButton(onPressed: () {})
                 ],
@@ -95,7 +95,7 @@ class PetPageScreen extends StatelessWidget {
     return Container(
       height: 60,
       color: AppColors.ORANGE,
-      padding: EdgeInsets.symmetric(horizontal: 40),
+      padding: const EdgeInsets.symmetric(horizontal: 40),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
